@@ -17,8 +17,8 @@ func main() {
         log.Fatalf("GOTIFY_TOKEN env variable not set")
     }
 
-    if gotifyHost = os.Getenv("GOTIFY_URL"); gotifyHost == "" {
-        log.Fatalf("GOTIFY_URL env variable not set")
+    if gotifyHost = os.Getenv("GOTIFY_HOST"); gotifyHost == "" {
+        log.Fatalf("GOTIFY_HOST env variable not set")
     }
 
     lxcs, err := lxc.List()
