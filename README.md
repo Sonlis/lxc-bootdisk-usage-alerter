@@ -15,3 +15,8 @@ Build the binary for the desired architecture and operating system:
 ```
 GOOS=linux GOARCH=amd64 go build # Example for an x86_64 linux machine
 ```
+
+## Testing
+```
+go test ./...
+```
